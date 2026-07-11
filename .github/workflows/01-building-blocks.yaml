@@ -17,6 +17,7 @@ jobs:
       - name: Successful step
         run: |
           echo "I will succeed"
-          exit 0
-      - name: Say goodbye
-        run: echo "Goodbye!"
+          echo "then only i will be rcognized"
+          echo "by manager"
+          
+      
