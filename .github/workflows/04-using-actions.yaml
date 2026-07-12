@@ -1,0 +1,13 @@
+name: 04-using-actions
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-layest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4  
+      - name: folder path
+        run: ls       
